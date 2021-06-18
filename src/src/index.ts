@@ -28,6 +28,8 @@ window.addEventListener("load", async () =>
     if (window.location.protocol !== "file:")
     {
         document.getElementById("warning-text")!.style.display = "";
+    } else {
+        document.getElementById("warning-text")!.style.display = "none";
     }
 
     // dark mode events
